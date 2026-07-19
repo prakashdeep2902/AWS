@@ -1,0 +1,64 @@
+## Amazon EKS (Elastic Kubernetes Service)
+
+**Amazon EKS** is AWS's **managed Kubernetes service**.
+
+### Simple Definition
+
+> **EKS lets you run and manage Kubernetes clusters on AWS.**
+
+---
+
+## Example
+
+```text
+Docker App
+     │
+Kubernetes
+     │
+Amazon EKS
+     │
+Runs Containers
+```
+
+---
+
+## Why use EKS?
+
+- ✅ Run Kubernetes applications
+- ✅ Auto Scaling
+- ✅ High Availability
+- ✅ AWS manages the Kubernetes control plane
+- ✅ Works with Docker containers
+
+---
+
+## ECS vs EKS
+
+| ECS                              | EKS                           |
+| -------------------------------- | ----------------------------- |
+| AWS's own container service      | Managed Kubernetes service    |
+| Easier to learn                  | More complex                  |
+| AWS-specific                     | Portable across clouds        |
+| No Kubernetes knowledge required | Requires Kubernetes knowledge |
+
+---
+
+## When to use?
+
+- **ECS** → If you're only using AWS and want a simpler container service.
+- **EKS** → If your application already uses Kubernetes or needs to run across multiple cloud providers.
+
+---
+
+## Interview (1 line)
+
+> **Amazon EKS is a managed Kubernetes service that simplifies deploying, managing, and scaling containerized applications on AWS.**
+
+### Easy way to remember
+
+- **Docker** → Packages your app.
+- **ECS** → AWS manages Docker containers.
+- **EKS** → AWS manages Kubernetes clusters.
+- **Kubernetes** → Manages containers across many servers.
+
+![alt text](image.png)
